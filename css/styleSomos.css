@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+/* Selector universal*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+/* Selectores de etiquetas*/
+.top{
+  height: 32px;
+  width: 100%;
+  background-color: #B4CF66;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.top img{
+  height: 25px;
+  padding-inline-start: 12px;
+  margin-left: 8px;
+}
+
+.top_name{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.top_name a {
+  text-decoration: none;
+  color: black;
+  margin-right: 14px;
+  margin-left: 11px;
+  font-size: 12px;
+}
+
+.top_name a:hover{
+  color: red;
+}
+
+.navbar{
+  margin-top: 32px;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  background-color: #FFEC5C;
+  position: fixed;
+  align-items: center;
+  z-index: 5;
+}
+
+.name{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: hsla(0, 0%, 100%, .15);
+  margin: 0px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #B4CF66;
+}
+
+.name span{
+  font-size: 20px;
+}
+
+.menu{
+   margin-right: 81px;
+}
+
+ .menu a{
+      margin-right: 90px;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+    }
+
+  .menu ul .name_pagina{
+    font-size: 28px;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+  }
+
+.navbar a:hover{
+  color: red;
+}
+
+.section_header aside{
+  position: absolute;
+  width: 25%;
+  height: 576px;
+  background-color: #FFEC5C;
+  margin-top: 96px;
+  z-index: 1;
+}
+
+.section_header img{
+  display: flex;
+  float: right;
+  width: 1013px;
+  height: 576px;
+  margin-top: 96px;
+}
+
+section{
+  height: 672px;
+}
+
+
+/* Estilos para el menú */
+.menu ul {
+    list-style: none;
+    padding: 7px;
+    margin: 0;
+}
+
+.menu ul a{
+  margin-right: 100px;
+}
+  
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu .desplegable .item{
+  color: black;
+}
+
+/* Estilos para el menú desplegable */
+.menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+.menu .desplegable:hover .submenu {
+    display: block;
+}
+
+.menu .submenu li {
+    display: block;
+}
+
+.footer {
+  background-color: #B4CF66;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer_content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer_links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer_links li:last-child {
+  margin-right: 0;
+}
+
+.footer_links a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer_links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.presentacion-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f4f4f4; /* Un color de fondo para resaltar */
+  height: 850px;
+
+}
+
+.presentacion-section h2{
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+.descrip-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.descrip-info p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
